@@ -1,0 +1,218 @@
+*{
+  margin:0px;
+	padding:0px;
+}
+body{
+	margin-left:150px;
+}
+#logo{
+	width:950px;
+	height:150px;
+	background:#64a9e4;
+	}
+#logo  span{
+	color:white;
+	text-shadow:2px -2px white, -2px 2px black;
+	font-family:sans-serif;
+	font-size:50px;
+}
+#logo button{
+	float:right;
+	width:150px;
+	height:40px;
+	border-radius:5px;
+	background-color:#64a9ea;
+	text-decoration:none;
+}
+#logo button a{
+	color:white;
+}
+.menu{
+	
+	color:red;
+	
+	width:950px;
+	height:40px;
+	
+	/*background: #1e5799; 
+	background: -moz-linear-gradient(top, #1e5799 0%, #207cca 50%, #2989d8 50%, #7db9e8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#207cca), color-stop(50%,#2989d8), color-stop(100%,#7db9e8)); 
+	background: -webkit-linear-gradient(top, #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%); 
+	background: -o-linear-gradient(top, #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%); 
+	background: -ms-linear-gradient(top, #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%); 
+	background: linear-gradient(to bottom, #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); */
+	background: #d0e4f7; 
+	background: -moz-linear-gradient(top, #d0e4f7 0%, #73b1e7 24%, #539fe1 79%, #87bcea 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0e4f7), color-stop(24%,#73b1e7), color-stop(79%,#539fe1), color-stop(100%,#87bcea));
+	background: -webkit-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#539fe1 79%,#87bcea 100%); 
+	background: -o-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#539fe1 79%,#87bcea 100%); 
+	background: -ms-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#539fe1 79%,#87bcea 100%); 
+	background: linear-gradient(to bottom, #d0e4f7 0%,#73b1e7 24%,#539fe1 79%,#87bcea 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); 
+}
+.menu {
+	list-style:none;
+	width:950px;
+	font-size:22px;
+}
+.menu ul {
+	float: left;
+}
+.menu ul li{
+	width:150px;
+}
+/*.menu ul li a{
+	text-align:center;
+}*/
+.menu  li{
+	position: relative;
+	float: left;
+}
+.menu li a{
+	display: block;
+	text-decoration: none;	
+	padding: 5px 10px;
+	color:white;
+}
+
+.menu   li  ul {
+	position: absolute;
+	display: none;
+	width: 200px;
+	background-color:#64a9e4;	
+}
+/*.menu  li  ul  li a{
+	text-align:left;
+}*/
+.menu  ul li:hover{
+	background-color:#64a9e4;
+}
+.menu  li:hover  ul {
+	display: block;
+}
+.menu  li  ul  li a:hover{
+	color:blue;
+}
+.menu ul li ul li{
+	width:100%;
+}
+.timkiem{
+	float:right;
+}
+.timkiem input{
+	height:30px;
+	width:150px;
+	margin-top:4px;
+	border-radius:3px;
+	
+}
+.timkiem button{
+	height:30px;
+	margin-top:4px;
+	color:blue;
+	width:
+}
+.menu1{
+	width:948px;
+	height:40px;
+	border-bottom:1px;
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	border-color:#64a9e4;
+	border-style:dotted;
+}
+.dangnhap{
+	width:950px;
+	height:40px;
+	background-color:#64a9e4;
+	float:right;
+}
+/*End header-------------------*/
+#content{
+	width:950px;
+	height:920px;
+	background-color:white;
+	margin-top:20px;
+	border:1px dotted #64a9e4;
+	
+}
+
+#slideshow{
+	width:650px;
+	height:400px;
+	border:2px solid white;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+.show{
+	padding-top:20px;
+	clear:both;
+}
+.show:last-child{
+	clear:both;
+}
+.product{
+	width:210px;
+	height:240px;
+	float:left;
+	/*border:1px dotted blue;*/
+	margin-left:20px;
+}
+.product image{
+	width:210px;
+	height:180px;
+	margin-left:2px;
+}
+.product button{
+	width:105px;
+	height:35px;
+	margin-top:15px;
+	margin-bottom:0px;
+	background-color:#64a9ea;
+	color:blue;
+	float:left;
+}
+.product button a{
+	text-decoration:none;
+}
+/*End content-------------------*/
+#footer{
+	width:952px;
+	background-color:#2577c1;
+	height:180px;
+	margin-bottom:40px;
+}
+#footer div{
+	width:200px;
+	height:180px;
+	border-right:1px solid white;
+	float:left;
+	padding-left:20px;
+	padding-top:20px;
+}
+#footer :last-child{
+	border-right:0px;
+}
+#footer ul{
+	list-style:none;
+	text-decoration:none;
+}
+#footer  span {
+	list-style:none;
+}
+#footer  span li a{
+	font-size:25px;
+	text-align:cnter;
+	color:white;
+	text-decoration:none;
+}
+#footer li a{
+	font-size:18px;
+	color:white;
+	text-decoration:none;
+}
+#footer li a:hover{
+	color:blue;
+}
